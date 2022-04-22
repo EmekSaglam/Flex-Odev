@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<p>Boyutlar, Flexbox ve CSS Grid arasındaki birincil sınırı tanımlar. Flexbox, tek boyutlu düzenler için özel olarak tasarlanırken, CSS Izgarası iki boyutlu düzenleri etkinleştirmek için tasarlanmıştır. Bu nedenle CSS Grid, satırları ve sütunları aynı anda kolayca oluşturabilir.</p>
+
+<div class="container mt-3">
+  <h3>Flex</h3>
+  <p>Bir esnek kutu oluşturmak ve esnek öğelere dönüştürmek için d-flex sınıfı kullanıyoruz.</p>
+  <div class="d-flex p-3 bg-secondary text-white">  
+    <div class="p-2 bg-info">Flex</div>
+    <div class="p-2 bg-warning">Flex</div>
+    <div class="p-2 bg-primary">Flex</div>
+  </div>
+</div>
+<div class="container mt-3">
+    <h4>Yatay</h4>
+    <p>.flex-row Esnek öğeleri yatay olarak (yan yana) görüntülemek için kullanırız.</p>
+    <div class="d-flex flex-row bg-secondary mb-3">
+      <div class="p-2 bg-info">Flex</div>
+      <div class="p-2 bg-warning">Flex</div>
+      <div class="p-2 bg-primary">Flex</div>
+    </div>
+    <div class="d-flex flex-row-reverse bg-secondary">
+      <div class="p-2 bg-info">Flex</div>
+      <div class="p-2 bg-warning">Flex</div>
+      <div class="p-2 bg-primary">Flex</div>
+    </div>
+  </div>
+  <div class="container mt-3">
+    <h4>Dikey</h4>
+    <p>.flex-column Esnek öğeleri dikey olarak görüntülemek veya .flex-column-reverse dikey yönü tersine çevirmek için kullanın</p>
+    <div class="d-flex flex-column mb-3">
+      <div class="p-2 bg-info">Flex</div>
+      <div class="p-2 bg-warning">Flex2</div>
+      <div class="p-2 bg-primary">Flex</div>
+    </div>
+    <div class="d-flex flex-column-reverse">
+      <div class="p-2 bg-info">Flex</div>
+      <div class="p-2 bg-warning">Flex</div>
+      <div class="p-2 bg-primary">Flex</div>
+    </div>
+  </div>
+  <div class="container mt-3">
+    <h4>İçerik Yaslama</h4>
+    <p>.justify-content Esnek öğelerin hizalamasını değiştirmek için sınıfları kullanırız </p>
+    <div class="d-flex justify-content-start bg-secondary mb-3">
+      <div class="p-2 bg-info">Flex</div>
+      <div class="p-2 bg-warning">Flex</div>
+      <div class="p-2 bg-primary">Flex</div>
+    </div>
+    <div class="d-flex justify-content-end bg-secondary mb-3">
+      <div class="p-2 bg-info">Flex</div>
+      <div class="p-2 bg-warning">Flex</div>
+      <div class="p-2 bg-primary">Flex</div>
+    </div>
+    <div class="d-flex justify-content-center bg-secondary mb-3">
+      <div class="p-2 bg-info">Flex</div>
+      <div class="p-2 bg-warning">Flex</div>
+      <div class="p-2 bg-primary">Flex</div>
+    </div>
+    <div class="d-flex justify-content-between bg-secondary mb-3">
+      <div class="p-2 bg-info">Flex</div>
+      <div class="p-2 bg-warning">Flex</div>
+      <div class="p-2 bg-primary">Flex</div>
+    </div>
+    <div class="d-flex justify-content-around bg-secondary mb-3">
+      <div class="p-2 bg-info">Flex</div>
+      <div class="p-2 bg-warning">Flex</div>
+      <div class="p-2 bg-primary">Flex</div>
+    </div>
+  </div>
+  
+
+
+
+</body>
